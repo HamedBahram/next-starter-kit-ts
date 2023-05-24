@@ -1,8 +1,9 @@
 'use client'
 
+import { useTransition } from 'react'
+
 import { Todo } from '@prisma/client'
 import { updateTodoAction } from '@/app/_actions'
-import { useTransition } from 'react'
 
 type TodoItemProps = {
   todo: Todo

@@ -1,7 +1,7 @@
 import { getTodos } from '@/lib/todos'
 
-import NewTodoForm from './components/NewTodoForm'
-import TodoItem from './components/TodoItem'
+import NewTodoForm from '@/components/NewTodoForm'
+import TodoItem from '@/components/TodoItem'
 
 export const dynamic = 'force-dynamic'
 
